@@ -21,9 +21,10 @@ public class Pagina_criarUmaConta extends BaseSelenium {
 		esperarPaginaSerCarregada();
 		esperarPadrao(3);
 		esperarElementoExistir(eleCriaConta.getCmpEmailCreate());
-		escrever(eleCriaConta.getCmpEmailCreate(), "h0nd0qu1rky" + new Random().nextInt(1000) + "@gmail.com");
+		escrever(eleCriaConta.getCmpEmailCreate(), "hwynxequerrdrkyww" + new Random().nextInt(10000) + "@gmail.com");
 		esperarPadrao(3);
 		esperarSerClicavel(eleCriaConta.getBtnCreateAnAccount());
+		esperarPadrao(3);
 		clicar(eleCriaConta.getBtnCreateAnAccount());
 		esperarPaginaSerCarregada();
 
